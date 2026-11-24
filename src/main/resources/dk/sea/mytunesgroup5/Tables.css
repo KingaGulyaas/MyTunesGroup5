@@ -1,0 +1,49 @@
+.table-view, .list-view {
+    -fx-background-color: #351E28;
+    -fx-background-radius: 5;
+    -fx-border-color: #5B1E32;
+    -fx-border-radius: 5;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #5B1E32;
+    -fx-background-radius: 5 5 0 0;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: transparent;
+    -fx-size: 35px;
+    -fx-border-color: transparent #351E28 transparent transparent;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #B7E1DA;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.table-row-cell, .list-cell {
+    -fx-background-color: #351E28;
+    -fx-text-fill: #B7E1DA;
+    -fx-border-color: transparent transparent #5B1E32 transparent;
+    -fx-cell-size: 32px;
+}
+
+.table-row-cell:odd, .list-cell:odd {
+    -fx-background-color: #3D232E;
+}
+
+.table-cell {
+    -fx-text-fill: #B7E1DA;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.table-row-cell:selected, .list-cell:selected {
+    -fx-background-color: #5B1E32;
+    -fx-text-fill: #FFFFFF;
+}
+
+.table-view .virtual-flow .clipped-container .sheet .table-row-cell:empty {
+    -fx-background-color: #351E28;
+    -fx-border-color: transparent;
+}
