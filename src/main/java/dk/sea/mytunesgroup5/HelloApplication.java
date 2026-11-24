@@ -14,6 +14,7 @@ public class HelloApplication extends Application {
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
         stage.setTitle("MyTunes");
         stage.setScene(scene);
+        //To make sure that the program will run with a maximized screen size no matter the computer type
         stage.setMaximized(true);
         stage.show();
     }
