@@ -88,11 +88,7 @@
                   </HBox>
                </children>
             </VBox>
-            <VBox alignment="CENTER">
-               <children>
-                  <Button maxHeight="36.0" maxWidth="36.0" minHeight="36.0" minWidth="36.0" style="-fx-background-color: #5B1E32; -fx-background-radius: 50; -fx-padding: 0;" text="←" textFill="#b7e1da"><font><Font name="System Bold" size="16.0" /></font></Button>
-               </children>
-            </VBox>
+            <VBox alignment="CENTER" />
             <VBox prefHeight="764.0" prefWidth="764.0" spacing="10.0" style="-fx-background-color: #B7E1DA; -fx-background-radius: 15;" HBox.hgrow="ALWAYS">
                <padding><Insets bottom="12.0" left="12.0" right="12.0" top="12.0" /></padding>
                <children>
