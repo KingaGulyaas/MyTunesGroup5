@@ -14,7 +14,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane prefHeight="900.0" prefWidth="1440.0" style="-fx-background-color: #351E28;" stylesheets="@Tables.css" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane prefHeight="900.0" prefWidth="1440.0" style="-fx-background-color: #351E28;" stylesheets="@Tables.css" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dk.sea.mytunesgroup5.HelloController">
    <top>
       <HBox alignment="CENTER" prefHeight="90.0" spacing="12.0" style="-fx-background-color: #5B1E32;">
          <padding><Insets left="20.0" right="20.0" /></padding>
